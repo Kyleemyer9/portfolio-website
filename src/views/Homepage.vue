@@ -1,13 +1,14 @@
 <script setup>
 import portfolioData from '@/data/portfolio.json'
+import PortfolioHero from '@/components/portfolio/PortfolioHero.vue'
 </script>
 
 <template>
   <div class="all-items">
-    <div class="item"> v-for="thing in portfolioData" :key="thing.id">
-      {{ thing.title }}
+    <portfolio-hero v-for="thing in portfolioData" :key="thing.id"
+      :thumbnail="thing.thumbnail" :title="thing.title"
+      />
     </div>
-  </div>
 </template>
 
 <style scoped>
@@ -15,9 +16,5 @@ div.all-items {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-
-  div.item {
-    border: 1px solid black;
-  }
 }
 </style>
