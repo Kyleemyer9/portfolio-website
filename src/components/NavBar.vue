@@ -2,10 +2,10 @@
 </script>
 
 <template>
-  <div class="logo"></div>
   <div class="container">
-    <div class="links">
+    <div class="logo"></div>
 
+    <div class="links">
       <router-link :to="{name: 'home'}">Home</router-link>
 
       <router-link :to="{name: 'about-me'}">About Me</router-link>
@@ -13,7 +13,6 @@
       <router-link :to="{name: 'my-work'}">My Work</router-link>
 
       <router-link :to="{name: 'contact-me'}">Contact Me</router-link>
-
     </div>
   </div>
 </template>
@@ -38,9 +37,9 @@ div.container {
     flex-direction: column;
     gap: 10px;
 
-    a{
+    a {
       color: white;
-      text-direction: none;
+      text-decoration: none;
       border: 1px solid white;
       padding: 5px;
 
@@ -50,10 +49,11 @@ div.container {
       }
     }
 
-    @media (width > 500px) {
-      /* Overrides flex-direction of column on div.links */
+    @media (width > 600px) {
+      /* Overrides the flex-direction of column on div.links */
       flex-direction: row;
     }
   }
 }
+
 </style>

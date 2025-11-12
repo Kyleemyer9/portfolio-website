@@ -1,20 +1,17 @@
 <script setup>
 import portfolioData from '@/data/portfolio.json'
-import PortfolioHero from '@/components/portfolio/PortfolioHero.vue'
+import HeroContainer from '@/components/HeroContainer.vue'
+
+const featuredItems = [portfolioData[0], portfolioData[1], portfolioData[5]]
 </script>
 
 <template>
-  <div class="all-items">
-    <portfolio-hero v-for="thing in portfolioData" :key="thing.id"
-      :thumbnail="thing.thumbnail" :title="thing.title"
-      />
-    </div>
+  <p>This is my responsive one:</p>
+  <hero-container :is-responsive="true" :items="featuredItems" />
+
+  <p>This is my NON-responsive one:</p>
+  <hero-container :is-responsive="false" :items="portfolioData" />
 </template>
 
 <style scoped>
-div.all-items {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
 </style>
