@@ -1,5 +1,5 @@
 <script setup>
-import PortfolioHero from '@/components/HeroContainer.vue'
+import PortfolioHero from '@/components/portfolio/PortfolioHero.vue'
 
 const props = defineProps({
   items: {

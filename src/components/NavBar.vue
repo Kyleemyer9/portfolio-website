@@ -3,9 +3,8 @@
 
 <template>
   <div class="container">
-    <div class="logo"></div>
-
     <div class="links">
+      <p class="links-title">Kylee Myer</p>
       <router-link :to="{name: 'home'}">Home</router-link>
 
       <router-link :to="{name: 'about-me'}">About Me</router-link>
@@ -23,19 +22,20 @@ div.container {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  align-items: center;
-
-  div.logo {
-    height: 200px;
-    width: 200px;
-    background-color: white;
-    border-radius: 100px;
-  }
+  align-items: flex-end;
 
   div.links {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+    .links-title {
+      position: absolute;
+      top: 0px;
+      left: 20px;
+      color: white;
+      font-weight: bold;
+    }
 
     a {
       color: white;
