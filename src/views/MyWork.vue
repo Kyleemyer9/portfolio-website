@@ -1,7 +1,14 @@
-<script setup></script>
+<script setup>
+import PageHeader from '@/components/PageHeader.vue'
+</script>
 
 <template>
-  <p>My work</p>
+  <div class="workPage">
+    <PageHeader
+      title="My Work"
+      thumbnail="your-image.jpg"
+    />
+  </div>
 </template>
 
 <style scoped></style>

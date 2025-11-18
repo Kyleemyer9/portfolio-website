@@ -20,8 +20,9 @@ const featuredItems = [
       title="Kylee Myer"
       thumbnail="your-image.jpg"
     />
-
-    <h2>Featured Works</h2>
+<div class="featured-works">
+  <h2>Featured Works</h2>
+</div>
     <hero-container :is-responsive="true" :items="featuredItems" />
   </div>
 </template>
@@ -29,5 +30,10 @@ const featuredItems = [
 <style scoped>
 .homepage {
   text-align: center;
+
+  .featured-works {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 }
 </style>

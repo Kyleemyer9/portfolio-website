@@ -44,6 +44,7 @@ const props = defineProps({
   margin-top: 8px;
   text-align: center;
   font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }
 </style>
