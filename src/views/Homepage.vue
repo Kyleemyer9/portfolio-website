@@ -1,8 +1,8 @@
 <script setup>
 import portfolioData from '@/data/portfolio.json'
-import HeroContainer from '@/components/HeroContainer.vue'
+import HeroContainer from '@/components/portfolio/HeroContainer.vue'
 
-const featuredItems = [portfolioData[0], portfolioData[1], portfolioData[5]]
+const featuredItems = [portfolioData[1], portfolioData[2], portfolioData[3]]
 </script>
 
 <template>

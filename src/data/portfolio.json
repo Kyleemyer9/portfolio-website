@@ -1,52 +1,62 @@
 [
   {
     "id": 1,
-    "title": "Insert title",
-    "dateCreated": "Insert date",
-    "medium": "Insert medium",
-    "type": "Insert type",
-    "description": "Insert description",
+    "title": "Baja Blast Hero",
+    "dateCreated": 2025,
+    "medium": "Digital Art Program",
+    "type": "Illustration",
+    "description": "A hero illustration inspired by the product Baja Blast.",
     "thumbnail": "Item1.jpg",
-    "highResImages": ["path/to/highResImage/1", "path/to/highResImage/2"]
+    "highResImages": ["path/to/highResImage/1"]
   },
   {
     "id": 2,
-    "title": "Insert title",
-    "dateCreated": "Insert date",
-    "medium": "Insert medium",
-    "type": "Insert type",
-    "description": "Insert description",
+    "title": "Dragon Business Card",
+    "dateCreated": 2024,
+    "medium": "Adobe Illustrator",
+    "type": "Illustration",
+    "description": "An illustration for a personal business card.",
     "thumbnail": "Item2.jpg",
-    "highResImages": ["path/to/highResImage/1", "path/to/highResImage/2"]
+    "highResImages": ["path/to/highResImage/1"]
   },
   {
     "id": 3,
-    "title": "Insert title",
-    "dateCreated": "Insert date",
-    "medium": "Insert medium",
-    "type": "Insert type",
-    "description": "Insert description",
+    "title": "Hong Kong Logo",
+    "dateCreated": 2024,
+    "medium": "Adobe Illustrator",
+    "type": "Logo",
+    "description": "A logo for a brand identity project.",
     "thumbnail": "Item3.jpg",
-    "highResImages": ["path/to/highResImage/1", "path/to/highResImage/2"]
+    "highResImages": ["path/to/highResImage/1"]
   },
   {
     "id": 4,
-    "title": "Insert title",
-    "dateCreated": "Insert date",
-    "medium": "Insert medium",
-    "type": "Insert type",
-    "description": "Insert description",
+    "title": "Bite-Sized Bliss Cover",
+    "dateCreated": 2025,
+    "medium": "Adobe Illustrator",
+    "type": "Book Cover",
+    "description": "A cover for a cookbook project.",
     "thumbnail": "Item4.jpg",
-    "highResImages": ["path/to/highResImage/1", "path/to/highResImage/2"]
+    "highResImages": ["path/to/highResImage/1"]
   },
   {
     "id": 5,
-    "title": "Insert title",
-    "dateCreated": "Insert date",
-    "medium": "Insert medium",
-    "type": "Insert type",
-    "description": "Insert description",
+    "title": "Raspberry Zinger Tea Box Redesign",
+    "dateCreated": 2024,
+    "medium": "Digital Art Program / Adobe Illustrator",
+    "type": "Box Design",
+    "description": "A box redesign for the product Raspberry Zinger Tea.",
     "thumbnail": "Item5.jpg",
-    "highResImages": ["path/to/highResImage/1", "path/to/highResImage/2"]
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 6,
+    "title": "PawPulse UI Mockups",
+    "dateCreated": 2024,
+    "medium": "Figma",
+    "type": "UI Design",
+    "description": "An Apple Watch UI design project.",
+    "thumbnail": "Item6.jpg",
+    "highResImages": ["path/to/highResImage/1"]
   }
 ]
