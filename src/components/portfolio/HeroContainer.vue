@@ -34,9 +34,4 @@ div.all-items {
   flex-wrap: wrap;
   gap: 2rem;
 }
-
-div.non-responsive {
-  overflow: scroll;
-  flex-wrap: nowrap;
-}
 </style>

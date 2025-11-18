@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "title": "Baja Blast Hero",
     "dateCreated": 2025,
     "medium": "Digital Art Program",
@@ -10,7 +10,7 @@
     "highResImages": ["path/to/highResImage/1"]
   },
   {
-    "id": 2,
+    "id": 1,
     "title": "Dragon Business Card",
     "dateCreated": 2024,
     "medium": "Adobe Illustrator",
@@ -20,7 +20,7 @@
     "highResImages": ["path/to/highResImage/1"]
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Hong Kong Logo",
     "dateCreated": 2024,
     "medium": "Adobe Illustrator",
@@ -30,7 +30,7 @@
     "highResImages": ["path/to/highResImage/1"]
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Bite-Sized Bliss Cover",
     "dateCreated": 2025,
     "medium": "Adobe Illustrator",
@@ -40,7 +40,7 @@
     "highResImages": ["path/to/highResImage/1"]
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Raspberry Zinger Tea Box Redesign",
     "dateCreated": 2024,
     "medium": "Digital Art Program / Adobe Illustrator",
@@ -50,7 +50,7 @@
     "highResImages": ["path/to/highResImage/1"]
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "PawPulse UI Mockups",
     "dateCreated": 2024,
     "medium": "Figma",
