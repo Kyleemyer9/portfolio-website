@@ -1,5 +1,6 @@
 <script setup>
 import PageHeader from '@/components/PageHeader.vue'
+import PageInfo from '@/components/PageInfo.vue'
 </script>
 
 <template>
@@ -8,6 +9,8 @@ import PageHeader from '@/components/PageHeader.vue'
       title="About Me"
       thumbnail="AboutMe.jpg"
     />
+
+    <PageInfo></PageInfo>
   </div>
 </template>
 

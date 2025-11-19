@@ -40,12 +40,11 @@ div.container {
     a {
       color: white;
       text-decoration: none;
-      border: 1px solid white;
       padding: 5px;
 
       &:hover {
         background-color: white;
-        color: black;
+        color: teal;
       }
     }
 

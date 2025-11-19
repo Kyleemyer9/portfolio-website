@@ -29,16 +29,16 @@ const featuredItems = [
 
 <style scoped>
 .homepage {
-  text-align: center;
 
   .featured-works {
+    text-align: center;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
   }
 
 }
 ::v-deep(.page-header .header-image) {
-  width: 80%;
+  width: 100%;
   max-width: 100%;
   height: 200px;
   display: block;
