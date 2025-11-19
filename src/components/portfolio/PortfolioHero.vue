@@ -43,7 +43,7 @@ const props = defineProps({
 .hero-title {
   margin-top: 8px;
   text-align: center;
-  font-size: 1rem;
+  font-size: small;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
 }

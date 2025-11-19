@@ -18,10 +18,10 @@ const featuredItems = [
 
     <PageHeader
       title="Kylee Myer"
-      thumbnail="your-image.jpg"
+      thumbnail="Banner.jpg"
     />
 <div class="featured-works">
-  <h2>Featured Works</h2>
+  <h3>Featured Works</h3>
 </div>
     <hero-container :is-responsive="true" :items="featuredItems" />
   </div>
@@ -35,5 +35,12 @@ const featuredItems = [
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+}
+::v-deep(.page-header .header-image) {
+  width: 80%;
+  max-width: 100%;
+  height: 200px;
+  display: block;
 }
 </style>

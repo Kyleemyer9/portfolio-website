@@ -6,7 +6,7 @@
     "medium": "Digital Art Program",
     "type": "Illustration",
     "description": "A hero illustration inspired by the product Baja Blast.",
-    "thumbnail": "Item1.jpg",
+    "thumbnail": "Item0.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
   {
@@ -16,7 +16,7 @@
     "medium": "Adobe Illustrator",
     "type": "Illustration",
     "description": "An illustration for a personal business card.",
-    "thumbnail": "Item2.jpg",
+    "thumbnail": "Item1.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
   {
@@ -26,7 +26,7 @@
     "medium": "Adobe Illustrator",
     "type": "Logo",
     "description": "A logo for a brand identity project.",
-    "thumbnail": "Item3.jpg",
+    "thumbnail": "Item2.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
   {
@@ -36,7 +36,7 @@
     "medium": "Adobe Illustrator",
     "type": "Book Cover",
     "description": "A cover for a cookbook project.",
-    "thumbnail": "Item4.jpg",
+    "thumbnail": "Item3.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
   {
@@ -46,7 +46,7 @@
     "medium": "Digital Art Program / Adobe Illustrator",
     "type": "Box Design",
     "description": "A box redesign for the product Raspberry Zinger Tea.",
-    "thumbnail": "Item5.jpg",
+    "thumbnail": "Item4.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
   {
@@ -56,7 +56,27 @@
     "medium": "Figma",
     "type": "UI Design",
     "description": "An Apple Watch UI design project.",
+    "thumbnail": "Item5.jpg",
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 6,
+    "title": "Name",
+    "dateCreated": 2024,
+    "medium": "Medium",
+    "type": "Type",
+    "description": "Description.",
     "thumbnail": "Item6.jpg",
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 7,
+    "title": "Name",
+    "dateCreated": 2024,
+    "medium": "Medium",
+    "type": "Type",
+    "description": "Description.",
+    "thumbnail": "Item7.jpg",
     "highResImages": ["path/to/highResImage/1"]
   }
 ]

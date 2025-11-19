@@ -6,7 +6,7 @@ import PageHeader from '@/components/PageHeader.vue'
   <div class="contactPage">
     <PageHeader
       title="Contact Me"
-      thumbnail="your-image.jpg"
+      thumbnail="ContactMe.jpg"
     />
   </div>
 </template>

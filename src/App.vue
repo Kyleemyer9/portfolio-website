@@ -12,7 +12,7 @@ import NavBar from '@/components/NavBar.vue'
       <router-view></router-view>
     </section>
 
-    <footer>Last updated Nov 17, 2025</footer>
+    <footer>Last updated Nov 18, 2025</footer>
   </section>
 </template>
 
