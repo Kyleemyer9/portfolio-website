@@ -1,41 +1,41 @@
 [
   {
     "id": 0,
-    "title": "Baja Blast Hero",
+    "title": "Baja Blast Illustrations",
     "dateCreated": 2025,
     "medium": "Digital Art Program",
     "type": "Illustration",
-    "description": "A hero illustration inspired by the product Baja Blast.",
+    "description": "Description",
     "thumbnail": "Item0.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
   {
     "id": 1,
-    "title": "Dragon Business Card",
+    "title": "Personal Business Cards",
     "dateCreated": 2024,
     "medium": "Adobe Illustrator",
     "type": "Illustration",
-    "description": "An illustration for a personal business card.",
+    "description": "Description",
     "thumbnail": "Item1.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
   {
     "id": 2,
-    "title": "Hong Kong Logo",
+    "title": "Hong Kong Rebrand",
     "dateCreated": 2024,
-    "medium": "Adobe Illustrator",
-    "type": "Logo",
-    "description": "A logo for a brand identity project.",
+    "medium": "Adobe Illustrator / Adobe Photoshop",
+    "type": "Brand Identity",
+    "description": "Description",
     "thumbnail": "Item2.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
   {
     "id": 3,
-    "title": "Bite-Sized Bliss Cover",
+    "title": "Bite-Sized Bliss Book",
     "dateCreated": 2025,
-    "medium": "Adobe Illustrator",
-    "type": "Book Cover",
-    "description": "A cover for a cookbook project.",
+    "medium": "Adobe Illustrator / Adobe InDesign",
+    "type": "Book Design",
+    "description": "Description",
     "thumbnail": "Item3.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
@@ -45,17 +45,17 @@
     "dateCreated": 2024,
     "medium": "Digital Art Program / Adobe Illustrator",
     "type": "Box Design",
-    "description": "A box redesign for the product Raspberry Zinger Tea.",
+    "description": "Description",
     "thumbnail": "Item4.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
   {
     "id": 5,
-    "title": "PawPulse UI Mockups",
+    "title": "PawPulse UI Design",
     "dateCreated": 2024,
     "medium": "Figma",
-    "type": "UI Design",
-    "description": "An Apple Watch UI design project.",
+    "type": "Apple Watch UI Design",
+    "description": "Description",
     "thumbnail": "Item5.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
@@ -65,7 +65,7 @@
     "dateCreated": 2024,
     "medium": "Medium",
     "type": "Type",
-    "description": "Description.",
+    "description": "Description",
     "thumbnail": "Item6.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
@@ -75,7 +75,7 @@
     "dateCreated": 2024,
     "medium": "Medium",
     "type": "Type",
-    "description": "Description.",
+    "description": "Description",
     "thumbnail": "Item7.jpg",
     "highResImages": ["path/to/highResImage/1"]
   }

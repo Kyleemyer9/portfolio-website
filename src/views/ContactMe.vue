@@ -10,7 +10,14 @@ import PageInfo from '@/components/PageInfo.vue'
       thumbnail="ContactMe.jpg"
     />
 
-    <PageInfo></PageInfo>
+    <PageInfo
+      mainText="Content here"
+      :bullets="[
+        'Bullet 1',
+        'Bullet 2',
+        'Bullet 3'
+      ]"
+    />
   </div>
 </template>
 

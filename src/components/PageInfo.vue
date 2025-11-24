@@ -1,17 +1,23 @@
 <script setup>
+const props = defineProps({
+  mainText: {
+    type: String,
+    required: true
+  },
+  bullets: {
+    type: Array,
+    required: true
+  }
+})
 </script>
 
 <template>
   <div class="main-content">
-    <p>Content here: Lorem ipsum dolor sit amet. Ad delectus perspiciatis nam provident
-      iusto qui facilis tempore qui adipisci dolorem At quia sunt et accusantium necessitatibus?
-      Et unde obcaecati ut consequatur rerum ex sint nisi. Et sint dicta vel explicabo sint qui.</p>
+    <p>{{ mainText }}</p>
   </div>
 
   <div class="bullet-points">
-    <p>• Content here</p>
-    <p>• Content here</p>
-    <p>• Content here</p>
+    <p v-for="(item, index) in bullets" :key="index">• {{ item }}</p>
   </div>
 </template>
 
