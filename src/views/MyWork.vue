@@ -6,18 +6,26 @@ import HeroContainer from '@/components/portfolio/HeroContainer.vue'
 const illustrationItems = [
   portfolioData[0],
   portfolioData[1],
+  portfolioData[6],
+  portfolioData[8],
 ]
 const posterItems = [
   portfolioData[3],
-  portfolioData[7],
-]
-const brandItems = [
-  portfolioData[2],
-  portfolioData[4],
+  portfolioData[11],
+  portfolioData[12],
+  portfolioData[13],
+  portfolioData[15],
 ]
 const uiItems = [
   portfolioData[5],
   portfolioData[7],
+  portfolioData[14],
+  portfolioData[10],
+]
+const miscItems = [
+  portfolioData[2],
+  portfolioData[4],
+  portfolioData[9],
 ]
 </script>
 
@@ -35,11 +43,11 @@ const uiItems = [
       <h3>Posters / Covers</h3>
       <hero-container :is-responsive="true" :items="posterItems" />
 
-      <h3>Brand Identities</h3>
-      <hero-container :is-responsive="true" :items="brandItems" />
-
       <h3>UI Design</h3>
       <hero-container :is-responsive="true" :items="uiItems" />
+
+      <h3>Misc. Designs</h3>
+      <hero-container :is-responsive="true" :items="miscItems" />
     </div>
   </div>
 </template>
@@ -50,6 +58,12 @@ const uiItems = [
   text-align: center;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
+  color: teal;
+}
+
+.work-categories h3 {
+  margin-top: 80px;
+  margin-bottom: 30px;
 }
 
 ::v-deep(.page-header .header-image) {

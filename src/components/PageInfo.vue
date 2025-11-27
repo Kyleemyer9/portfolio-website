@@ -17,27 +17,27 @@ const props = defineProps({
   </div>
 
   <div class="bullet-points">
-    <p v-for="(item, index) in bullets" :key="index">• {{ item }}</p>
+    <p v-for="(item, index) in bullets" :key="index" v-html="item"></p>
   </div>
 </template>
 
 <style scoped>
 .main-content {
-  border: solid black 1px;
   width: 60%;
   margin: 8px auto;
   text-align: center;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
 }
 
 .bullet-points {
-  border: solid black 1px;
   width: 60%;
-  margin: 8px auto;
+  margin: 32px auto 8px auto;
   text-align: center;
-  font-size: medium;
+  font-size: small;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
+  color: teal;
 }
 </style>

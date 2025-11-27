@@ -46,6 +46,7 @@ const props = defineProps({
   font-size: small;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
+  color: teal;
 }
 </style>
 

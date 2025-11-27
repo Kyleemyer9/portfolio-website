@@ -34,6 +34,7 @@ const featuredItems = [
     text-align: center;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
+    color: teal;
   }
 
 }

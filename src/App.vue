@@ -12,7 +12,7 @@ import NavBar from '@/components/NavBar.vue'
       <router-view></router-view>
     </section>
 
-    <footer>Last updated Nov 19, 2025</footer>
+    <footer>Last updated Nov 26, 2025</footer>
   </section>
 </template>
 
@@ -23,7 +23,7 @@ section.container {
   gap: 10px;
 
   > * {
-    border: 1px solid white;
+
   }
 
   .content {

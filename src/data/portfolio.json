@@ -14,7 +14,7 @@
     "title": "Personal Business Cards",
     "dateCreated": 2024,
     "medium": "Adobe Illustrator",
-    "type": "Illustration",
+    "type": "Illustration / Card",
     "description": "Description",
     "thumbnail": "Item1.jpg",
     "highResImages": ["path/to/highResImage/1"]
@@ -54,29 +54,129 @@
     "title": "PawPulse UI Design",
     "dateCreated": 2024,
     "medium": "Figma",
-    "type": "Apple Watch UI Design",
+    "type": "Apple Watch Design",
     "description": "Description",
     "thumbnail": "Item5.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
   {
     "id": 6,
-    "title": "Name",
-    "dateCreated": 2024,
-    "medium": "Medium",
-    "type": "Type",
+    "title": "Maria Sibylla Merian Poster",
+    "dateCreated": 2025,
+    "medium": "Digital Art Program / Adobe Illustrator",
+    "type": "Illustration / Poster",
     "description": "Description",
     "thumbnail": "Item6.jpg",
     "highResImages": ["path/to/highResImage/1"]
   },
   {
     "id": 7,
+    "title": "StarSearch UI Design",
+    "dateCreated": 2024,
+    "medium": "Figma",
+    "type": "Mobile App Design",
+    "description": "Description",
+    "thumbnail": "Item7.jpg",
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 8,
+    "title": "Minnesota State Fair Poster",
+    "dateCreated": 2024,
+    "medium": "Digital Art Program / Watercolor",
+    "type": "Illustration / Poster",
+    "description": "Description",
+    "thumbnail": "Item8.jpg",
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 9,
+    "title": "Color Explorations",
+    "dateCreated": 2022,
+    "medium": "Adobe Illustrator",
+    "type": "Pattern Design",
+    "description": "Description",
+    "thumbnail": "Item9.jpg",
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 10,
+    "title": "LearnLagoon UI Design",
+    "dateCreated": 2024,
+    "medium": "Figma",
+    "type": "Website Design",
+    "description": "Description",
+    "thumbnail": "Item10.jpg",
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 11,
+    "title": "State Explorer Magazine",
+    "dateCreated": 2023,
+    "medium": "Adobe Illustrator / Adobe InDesign",
+    "type": "Magazine",
+    "description": "Description",
+    "thumbnail": "Item11.jpg",
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 12,
+    "title": "Glass Animals Vinyl Cover",
+    "dateCreated": 2023,
+    "medium": "Adobe Illustrator / Adobe InDesign",
+    "type": "Vinyl Cover",
+    "description": "Description",
+    "thumbnail": "Item12.jpg",
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 13,
+    "title": "Xynthwave Poster",
+    "dateCreated": 2024,
+    "medium": "Adobe Illustrator",
+    "type": "Poster",
+    "description": "Description",
+    "thumbnail": "Item13.jpg",
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 14,
+    "title": "Glossier UI Redesign",
+    "dateCreated": 2024,
+    "medium": "Figma",
+    "type": "Website Design",
+    "description": "Description",
+    "thumbnail": "Item14.jpg",
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 15,
+    "title": "UMN Thank You Card",
+    "dateCreated": 2024,
+    "medium": "Adobe Illustrator",
+    "type": "Card",
+    "description": "Description",
+    "thumbnail": "Item15.jpg",
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 16,
     "title": "Name",
     "dateCreated": 2024,
     "medium": "Medium",
     "type": "Type",
     "description": "Description",
-    "thumbnail": "Item7.jpg",
+    "thumbnail": "Item16.jpg",
+    "highResImages": ["path/to/highResImage/1"]
+  },
+  {
+    "id": 17,
+    "title": "Name",
+    "dateCreated": 2024,
+    "medium": "Medium",
+    "type": "Type",
+    "description": "Description",
+    "thumbnail": "Item17.jpg",
     "highResImages": ["path/to/highResImage/1"]
   }
 ]

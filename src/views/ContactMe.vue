@@ -11,12 +11,12 @@ import PageInfo from '@/components/PageInfo.vue'
     />
 
     <PageInfo
-      mainText="Content here"
+      mainText="I can be contacted through these methods:"
       :bullets="[
-        'Bullet 1',
-        'Bullet 2',
-        'Bullet 3'
-      ]"
+    '• Email: kyleemyer9@gmail.com',
+    '• Phone Number: (612) 300-2780',
+    `• LinkedIn: <a href='https://www.linkedin.com/in/kylee-myer/' target='_blank'>Kylee Myer</a>`
+  ]"
     />
   </div>
 </template>

@@ -26,7 +26,6 @@ const props = defineProps({
 <style scoped>
 .page-header {
   display: flex;
-  border: solid black 1px;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -36,6 +35,7 @@ const props = defineProps({
 .page-header h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  color: teal;
 }
 
 .header-image {
