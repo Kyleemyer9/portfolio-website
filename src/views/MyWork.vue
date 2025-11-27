@@ -62,8 +62,8 @@ const miscItems = [
 }
 
 .work-categories h3 {
-  margin-top: 80px;
-  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-bottom: 16px;
 }
 
 ::v-deep(.page-header .header-image) {

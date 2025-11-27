@@ -7,9 +7,8 @@ const featuredItems = [
   portfolioData[0],
   portfolioData[1],
   portfolioData[2],
-  portfolioData[3],
+  portfolioData[5],
   portfolioData[4],
-  portfolioData[5]
 ]
 </script>
 
@@ -35,6 +34,11 @@ const featuredItems = [
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     color: teal;
+  }
+
+  .featured-works h3 {
+    margin-top: 60px;
+    margin-bottom: 16px;
   }
 
 }
