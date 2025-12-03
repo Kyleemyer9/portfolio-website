@@ -14,7 +14,6 @@ const posterItems = [
   portfolioData[11],
   portfolioData[12],
   portfolioData[13],
-  portfolioData[15],
 ]
 const uiItems = [
   portfolioData[5],

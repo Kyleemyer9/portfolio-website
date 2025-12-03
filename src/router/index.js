@@ -29,9 +29,10 @@ const router = createRouter({
       component: ContactMe,
     },
     {
-      path: '/work-details',
+      path: '/work/:id',
       name: 'work-details',
       component: WorkDetails,
+      props: true
     }
   ],
 })

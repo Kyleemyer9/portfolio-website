@@ -1,5 +1,12 @@
 <script setup>
+import { defineProps } from 'vue'
+import { RouterLink } from 'vue-router'
+
 const props = defineProps({
+  id: {
+    type: Number,
+    required: true,
+  },
   thumbnail: {
     type: String,
     required: true,
@@ -12,14 +19,14 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="hero-wrapper">
+  <RouterLink :to="`/work/${props.id}`" class="hero-wrapper">
     <div
       class="hero"
       :style="`background-image: url(./src/assets/${props.thumbnail})`"
     ></div>
 
     <p class="hero-title">{{ props.title }}</p>
-  </div>
+  </RouterLink>
 </template>
 
 <style scoped>
@@ -28,6 +35,7 @@ const props = defineProps({
   flex-direction: column;
   align-items: center;
   width: 300px;
+  text-decoration: none;
 }
 
 .hero {

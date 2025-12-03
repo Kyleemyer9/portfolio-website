@@ -14,18 +14,22 @@ const props = defineProps({
 </script>
 
 <template>
-  <div v-if="props.items.length > 0" class="all-items" :class="{ 'non-responsive': !props.isResponsive }">
+  <div
+    v-if="props.items.length > 0"
+    class="all-items"
+    :class="{ 'non-responsive': !props.isResponsive }"
+  >
     <PortfolioHero
       v-for="item in props.items"
       :key="item.id"
-      :thumbnail="item.thumbnail"
-      :title="item.title"
+      :id="item.id"
+    :thumbnail="item.thumbnail"
+    :title="item.title"
     />
   </div>
 
   <p v-else>You gotta give me something to work with!</p>
 </template>
-
 
 <style scoped>
 div.all-items {
@@ -35,3 +39,4 @@ div.all-items {
   gap: 2rem;
 }
 </style>
+
