@@ -51,6 +51,7 @@ const item = portfolioData.find(p => p.id === id)
   width: 300px;
   height: 250px;
   object-fit: cover;
+  border: 1px solid black;
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -66,5 +67,6 @@ const item = portfolioData.find(p => p.id === id)
   width: 100%;
   margin-top: 16px;
   border-radius: 10px;
+  border: 1px solid black;
 }
 </style>
