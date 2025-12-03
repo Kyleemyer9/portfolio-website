@@ -23,7 +23,7 @@ const props = defineProps({
 
 <style scoped>
 .main-content {
-  width: 60%;
+  width: 80%;
   margin: 8px auto;
   text-align: center;
   font-size: large;
@@ -32,12 +32,15 @@ const props = defineProps({
 }
 
 .bullet-points {
+  border: 1px solid black;
+  border-radius: 15px;
   width: 60%;
-  margin: 32px auto 8px auto;
+  margin: 32px auto 20px auto;
   text-align: center;
   font-size: small;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  color: teal;
+  background-color: teal;
+  color: white;
 }
 </style>

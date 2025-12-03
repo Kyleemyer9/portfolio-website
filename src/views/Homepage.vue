@@ -18,6 +18,7 @@ const featuredItems = [
     <PageHeader
       title="Kylee Myer"
       thumbnail="Banner.jpg"
+      icon="Icon0.svg"
     />
 <div class="featured-works">
   <h3>Featured Works</h3>

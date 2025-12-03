@@ -33,6 +33,7 @@ const miscItems = [
     <PageHeader
       title="My Work"
       thumbnail="Banner.jpg"
+      icon="Icon2.svg"
     />
 
     <div class="work-categories">

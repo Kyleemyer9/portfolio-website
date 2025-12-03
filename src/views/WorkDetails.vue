@@ -22,6 +22,7 @@ const item = portfolioData.find(p => p.id === id)
       <p><strong>Type:</strong> {{ item.type }}</p>
       <p><strong>Medium:</strong> {{ item.medium }}</p>
       <p><strong>Year:</strong> {{ item.dateCreated }}</p>
+      <p><strong>Description:</strong> {{ item.description}}</p>
     </div>
 
     <div class="high-res" v-if="item.highResImages.length">

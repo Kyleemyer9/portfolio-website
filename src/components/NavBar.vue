@@ -19,40 +19,48 @@
 <style scoped>
 
 div.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.links {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  align-items: flex-end;
+  gap: 10px;
+  align-items: flex-start;
+}
 
+.links-title {
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+div.links a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+div.links a:hover {
+  background-color: white;
+  color: teal;
+}
+
+@media (width > 600px) {
   div.links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
 
-    .links-title {
-      position: absolute;
-      top: 0px;
-      left: 20px;
-      color: white;
-      font-weight: bold;
-    }
-
-    a {
-      color: white;
-      text-decoration: none;
-      padding: 5px;
-
-      &:hover {
-        background-color: white;
-        color: teal;
-      }
-    }
-
-    @media (width > 600px) {
-      /* Overrides the flex-direction of column on div.links */
-      flex-direction: row;
-    }
+  .links-title {
+    margin-right: auto;
+    margin-left: 20px;
   }
 }
+
 
 </style>

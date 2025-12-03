@@ -8,6 +8,7 @@ import PageInfo from '@/components/PageInfo.vue'
     <PageHeader
       title="Contact Me"
       thumbnail="ContactMe.jpg"
+      icon="Icon3.svg"
     />
 
     <PageInfo
