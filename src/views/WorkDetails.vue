@@ -58,10 +58,16 @@ const item = portfolioData.find(p => p.id === id)
 }
 
 .info {
-  text-align: left;
-  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 80%;
+  margin: 32px auto 20px auto;
+  text-align: center;
+  font-size: small;
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  text-transform: uppercase;
+  background-color: teal;
+  color: white;
 }
 
 .extra-image {
