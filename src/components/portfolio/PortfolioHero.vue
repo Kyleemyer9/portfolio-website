@@ -1,5 +1,5 @@
 <script setup>
-import { defineProps } from 'vue'
+import { defineProps, computed } from 'vue'
 import { RouterLink } from 'vue-router'
 
 const props = defineProps({
@@ -16,18 +16,31 @@ const props = defineProps({
     required: true,
   }
 })
+
+// Import all thumbnails from src/assets
+const images = import.meta.glob('../assets/*.jpg', {
+  eager: true,
+  import: 'default',
+})
+
+// Resolve the correct image for this component
+const backgroundImage = computed(() => {
+  return images[`../assets/${props.thumbnail}`]
+})
 </script>
+
 
 <template>
   <RouterLink :to="`/work/${props.id}`" class="hero-wrapper">
     <div
       class="hero"
-      :style="`background-image: url(./src/assets/${props.thumbnail})`"
+      :style="{ backgroundImage: `url(${backgroundImage})` }"
     ></div>
 
     <p class="hero-title">{{ props.title }}</p>
   </RouterLink>
 </template>
+
 
 <style scoped>
 .hero-wrapper {
