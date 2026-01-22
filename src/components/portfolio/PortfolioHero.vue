@@ -3,29 +3,19 @@ import { defineProps, computed } from 'vue'
 import { RouterLink } from 'vue-router'
 
 const props = defineProps({
-  id: {
-    type: Number,
-    required: true,
-  },
-  thumbnail: {
-    type: String,
-    required: true,
-  },
-  title: {
-    type: String,
-    required: true,
-  }
+  id: Number,
+  thumbnail: String,
+  title: String,
 })
 
-// Import all thumbnails from src/assets
-const images = import.meta.glob('../assets/*.jpg', {
+// ✅ ALWAYS works in Vite
+const images = import.meta.glob('/src/assets/*.{jpg,png}', {
   eager: true,
   import: 'default',
 })
 
-// Resolve the correct image for this component
 const backgroundImage = computed(() => {
-  return images[`../assets/${props.thumbnail}`]
+  return images[`/src/assets/${props.thumbnail}`]
 })
 </script>
 
